@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.automation.testcases.TC008_VerifyProductAndProductDetails"/>
+      <class name="com.automation.testcases.TC020_SearchProductsAndVerifyCartAfterLogin"/>
+      <class name="com.automation.testcases.TC018_VerifyCategoryProducts"/>
+      <class name="com.automation.testcases.TC021_AddReviewOnProduct"/>
+      <class name="com.automation.testcases.TC009_SearchProduct"/>
+      <class name="com.automation.testcases.TC012_AddProductsToCart"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
