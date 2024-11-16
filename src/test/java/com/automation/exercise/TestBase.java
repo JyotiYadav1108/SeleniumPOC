@@ -30,7 +30,7 @@ import org.apache.logging.log4j.Logger;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class TestBase {
-	
+	// For testing GIT
 	public static final Logger logger=LogManager.getLogger(TestBase.class);
 	public static WebDriver driver;
 	public Properties prop = new Properties();
